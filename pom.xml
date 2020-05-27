@@ -6,6 +6,13 @@
   <version>1.2.7-SNAPSHOT</version>
   <name>maven-demo</name>
   <url>http://maven.apache.org</url>
+	<properties>
+ 	  <sonar.projectname>test-maven</sonar.projectname>
+	  <sonar.projectKey>dhirendrasp_Web-App</sonar.projectKey>
+	  <sonar.organization>dhirendrasp</sonar.organization>
+	  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	  <sonar.login>db7e5b4fc30a28dd3accab632455d161326a0226</sonar.login>
+	</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
